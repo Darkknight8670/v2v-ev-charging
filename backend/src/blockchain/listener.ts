@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 
 export function startListener() {
 
-  const CONTRACT_ADDRESS = "0xcf7ed3acca5a467e9e704c703e8d87f634fb0fc9";
+ const CONTRACT_ADDRESS = "0x5fbdb2315678afecb367f032d93f642f64180aa3";
 
   const ABI = [
     "event ChargingStarted(uint256 sessionId,uint256 chargerId,address user)",
